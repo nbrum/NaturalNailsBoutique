@@ -9,18 +9,18 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family:'Playfair Display', 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40; }
+  border-color: #538ea6; } 
 
 hr.light {
   border-color: #fff; }
 
 a {
-  color: #F05F40;
+  color: #F2B8A2;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -33,13 +33,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Playfair display', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #F05F40 !important; }
+  background-color: #2D5F73 !important; }
 
 .bg-dark {
-  background-color: #212529 !important; }
+  background-color: #F2B8A2 !important; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
@@ -74,7 +74,7 @@ body {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'playfair Display', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -82,7 +82,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #F05F40;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+    font-family: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #f05f40; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -93,10 +93,10 @@ body {
     color: #212529; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-      color: #F05F40; }
+      color: #F28C8C; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-      color: #F05F40 !important;
+      color: #F28C8C !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -121,20 +121,20 @@ body {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #fff; }
         #mainNav.navbar-shrink .navbar-brand {
-          color: #F05F40; }
+          color: #F2B8A2; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #f05f40; }
+            color: #F2B8A2; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-          color: #212529; }
+          color:#F2B8A2; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #F05F40; } }
+            color: #F2B8A2; } }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-color: #F2B8A2;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -192,7 +192,7 @@ header.masthead {
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         padding: 0 15px;
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+        font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 14px;
         font-weight: 600;
@@ -217,16 +217,16 @@ header.masthead {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Proxima Nova', 'Helvetica Neue', Arial, sans-serif; }
 
 .btn-xl {
   padding: 1rem 2rem; }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40; }
+  background-color: #538EA6;
+  border-color: #538EA6; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #fff;
-    background-color: #ee4b28 !important; }
+    background-color: #fff !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
